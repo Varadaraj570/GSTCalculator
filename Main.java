@@ -1,4 +1,4 @@
-// Main.java
+
 import java.util.Scanner;
 
 public class Main {
@@ -10,7 +10,7 @@ public class Main {
         System.out.println("        JAVA GST CALCULATOR             ");
         System.out.println("========================================");
 
-        // Take user input
+     
         System.out.print("Enter product/service name: ");
         String name = scanner.nextLine();
 
@@ -20,10 +20,10 @@ public class Main {
         System.out.print("Enter GST rate (%): ");
         double gstRate = scanner.nextDouble();
 
-        // Create Product object
+       
         Product product = new Product(name, price, gstRate);
 
-        // Display GST details
+ 
         System.out.println();
         calculator.displayGSTDetails(product);
 
